@@ -1,0 +1,51 @@
+.container1,
+.container2,
+.container3{
+    display: grid;
+    gap: 15px;
+    width: 80%;
+    margin:auto;
+    margin-bottom: 20px;
+    box-shadow: 20px;
+}
+.container1{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.container2{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.container3{
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.boxes{
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+.box1{
+    background-color: rgb(238,80,79);
+}
+.box2{
+    background-color: rgb(3,88,69);
+}
+.box3{
+    background-color: rgb(183,9,184);
+}
+.box4{
+    background-color:  rgb(3,255,242);
+}
+.box5{
+    background-color: rgb(81,207,74);
+}
+.box6{
+    background-color: rgb(28,157,28);
+}
+.box7{
+    background-color: rgb(255,255,0);
+}
+.box8{
+    background-color: rgb(254,165,0);
+}
+.box9{
+    background-color: rgb(254,0,0);
+}
